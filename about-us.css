@@ -1,0 +1,67 @@
+@keyframes example {
+  0%   {background-color: magenta;}
+  20%  {background-color: cyan;}
+  40%  {background-color: aquamarine;}
+  60% {background-color: lightgreen;}
+  80% {background-color: yellow;}
+  100% {background-color: red;}
+}
+
+.Title
+{
+padding-top: 100px;
+text-align:center;
+font-family:arial;
+font-size:40px;
+
+
+}
+
+.paragraph
+{
+    padding-top: 100px;
+    margin-left:50px;
+    font-family:arial;
+    font-size:20px;
+    
+
+}
+.paragraph1
+{
+   
+    margin-left:50px;
+    font-family:arial;
+    font-size:20px;
+    
+
+}
+
+div {
+
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+
+.top-img4{
+    transition: width 2s, height 5s;
+    transition-timing-function: linear;
+    display:inline-block;
+    
+  }
+
+
+  #nav1
+  {
+      padding-top:100px;
+      font-family: arial;
+   text-decoration: none;
+   color:white;
+   margin-right:150px;
+
+   
+
+
+  }
+

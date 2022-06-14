@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kino</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="nav-btn-container">
+    <button class="nav-btn"><i class="fa fa-bars"></i></button>
+  </div>
+  <div class="nav-container">
+      <ul class="topBar">
+          <a href="index.html"><li id="active">HOME</li></a>
+          <a href="movies.html"><li id="inactive">MOVIES</li></a>
+          <a href="events.html"><li id="inactive">EVENTS</li></a>
+          <li><input class="search-button" type="text" placeholder="Search"></li>
+          <a href="login.html" ><li id="inactive" >SIGN IN</li></a>
+          <a href="register.html"><li id="inactive">REGISTER</li></a>
+  </div>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade" style="display: block">
+      <div class="numbertext">1 / 5</div>
+      <img src="img/large/no-time-to-die.jpg">
+      <div class="text">No Time To Die</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="img/large/spider-man-no-way-home.jpg">
+      <div class="text">Spider Man: No Way Home</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="img/large/furious-9.jpg">
+      <div class="text">Fast & Furious 9</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="img/large/the-matrix-resurrections.jpg">
+      <div class="text">The Matrix Resurrections</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="img/large/dune.jpg">
+      <div class="text">Dune</div>
+    </div>
+      
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+
+  <div class="dot-container">
+    <span class="dot active" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-flex">
+      <div class="footer-first-section right">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna. 
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur.</p>
+      </div>
+      <div class="footer-first-section left">
+        <h3>Contact</h3>
+        <ul>
+          <lh>Location</lh>
+          <li>Prishtina, Kosova</li>
+          <lh>Email</lh>
+          <li>info@kino.com</li>
+          <lh>Phone number</lh>
+          <li>+3834*******</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-second-section">
+      <hr/>
+      <div class="social-media-links">
+        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <h6>Copyright. All rights reserved.</h6>
+    </div>
+  </div>
+</footer>
+</body>
+<script src="index.js"></script>
+</html>

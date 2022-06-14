@@ -1,0 +1,81 @@
+
+.main-content-container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 100px;
+}
+
+.main-content{
+    padding: 30px;
+    width: 300px;
+    box-shadow: 0px 0px 20px black; 
+}
+
+.main-content h1{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.main-content label{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.main-content input {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-content input[type="text"], [type="email"], [type="password"], [type="date"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.main-content input[type="submit"]{
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #173E7D;
+    border: 1px solid #173E7D;
+    color: white;
+}
+
+.main-content input[type="submit"]:hover{
+    cursor: pointer;
+    border-color: white;
+}
+
+.main-content h5{
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.main-content h5 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.main-content h5 a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 700px){
+    .main-content-container{
+        padding: 40px;
+        padding-bottom: 80px;
+    }
+}

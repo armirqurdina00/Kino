@@ -1,0 +1,41 @@
+.main-content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.main-content img{
+    width: 200px;
+    height: 300px;
+    margin: 30px 20px;
+    transition: transform .2s;
+    box-shadow: 5px 5px 20px black;
+}
+.main-content img:hover{
+    transform: scale(1.1);
+}
+
+.trending-movies-label{
+    width: 70%; 
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 700px){
+    .main-content{
+        width: 80%;
+        margin-top: 0px;
+    }
+
+    .main-content img{
+        width: 160px;
+        height: 240px;
+        margin: 20px 15px;
+    }
+
+    .trending-movies-label{
+        width: 80%; 
+        text-align: center;
+    }    
+}
